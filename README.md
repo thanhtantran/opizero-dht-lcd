@@ -1,4 +1,4 @@
-# opzero-dht-lcd
+# opizero-dht-lcd
 Orange PI zero with DTH diplay on lcdusb
 
 This code use LCD2USB lib from here https://github.com/thanhtantran/lcd2usb, and DHT library from here https://github.com/thanhtantran/DHT11-Python-library-Orange-PI
