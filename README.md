@@ -11,4 +11,10 @@ To run it you must install the orange pi python gpio from here https://github.co
     python3 setup.py install 
     
 then come back to this code and run
+
     python3 go.py
+
+setup crontab to run it every minute 
+
+    crontab -e
+    */1 * * * * python3 /root/zero-dht-lcd/go.py
