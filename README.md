@@ -10,6 +10,12 @@ To run it you must install the orange pi python gpio from here https://github.co
     cd orangepi_python_gpio
     python3 setup.py install 
     
+and install the lcd2usb lib
+    
+    apt install python3-pip -y
+    pip install libusb1
+    pip install lcd2usb
+    
 then come back to this code and run
 
     python3 go.py
